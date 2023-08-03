@@ -1,11 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: rgb(61, 108, 139);
+}
+
+h1{
+    color: white;
+
 }
 
 .calculator {
@@ -14,7 +20,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgb(190, 18, 18);
+    background-color: rgb(151, 71, 71);
 }
 
 .screen {
